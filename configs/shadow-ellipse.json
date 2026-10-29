@@ -1,0 +1,10 @@
+{
+  "name": "shadow-ellipse",
+  "input": "fixtures/shadow-ellipse.json",
+  "output": "fixtures/out/shadow-ellipse",
+  "fps": 24,
+  "segments": {
+    "Shadow_Idle": "idle",
+    "Shadow_Jump": "jump"
+  }
+}

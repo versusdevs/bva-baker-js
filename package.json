@@ -1,0 +1,35 @@
+{
+  "name": "bva-baker-js",
+  "version": "0.1.0",
+  "description": "Baked Vector Animation (BVA) baker — Lottie + SVG skins to .bva motion and .svg.json bundles",
+  "type": "module",
+  "bin": {
+    "bva-bake": "./index.mjs"
+  },
+  "main": "./index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./lib/*": "./lib/*"
+  },
+  "files": [
+    "index.mjs",
+    "lib",
+    "configs/shadow-ellipse.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "sharp": "^0.34.5"
+  },
+  "keywords": [
+    "bva",
+    "lottie",
+    "svg",
+    "animation",
+    "baker"
+  ],
+  "license": "UNLICENSED"
+}

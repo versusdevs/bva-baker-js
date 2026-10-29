@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+fixtures/out/
+
+# Bake configs describe a specific project's rigs and live with that project.
+# Only the generic fixture config ships here.
+configs/*
+!configs/shadow-ellipse.json
